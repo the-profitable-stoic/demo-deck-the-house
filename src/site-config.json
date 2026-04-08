@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Deck the House",
+    "phone": "+12102691133",
+    "category": "deck contractor",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-dark-premium",
+      "categoryGroup": "roofing",
+      "name": "Dark Premium",
+      "recipeFile": "roofing/dark-premium.astro",
+      "colors": {
+        "primary": "#FF6B35",
+        "primaryDark": "#E05A2B",
+        "primaryLight": "#FFD4C2",
+        "secondary": "#2A2A2A",
+        "accent": "#FF8C5A",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "San Antonio's Deck Building Experts",
+      "heroSubline": "Crafting custom decks and outdoor living spaces built to withstand the Texas climate. Build your dream outdoor space with Deck the House.",
+      "aboutTitle": "Built to Last, Designed to Impress",
+      "aboutText": [
+        "Deck the House started with a simple mission: to build decks that last. We're not just slapping boards together; we're crafting outdoor living spaces designed to withstand the harsh San Antonio sun, occasional freezes, and everything in between. Our founder, a San Antonio native, saw a need for durable, beautiful decks built with local expertise.",
+        "We take a hands-on approach to every project, from initial design to final inspection. We use only premium materials, and our team is meticulous about every detail. We understand the challenges of working with the area's limestone soil and are experts at building foundations that stand the test of time.",
+        "Deck the House is committed to giving back to the community that has supported us. We actively participate in local events and support organizations that make San Antonio a great place to live. We believe in building not just decks, but also strong relationships with our clients and neighbors."
+      ],
+      "valueProps": [
+        {
+          "title": "Custom Designs",
+          "description": "We work with you to create a deck that perfectly complements your home and lifestyle."
+        },
+        {
+          "title": "Premium Materials",
+          "description": "We use only the highest-quality lumber, composite decking, and hardware for lasting durability."
+        },
+        {
+          "title": "Expert Craftsmanship",
+          "description": "Our experienced team ensures every deck is built to code and exceeds your expectations."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "We understand the unique challenges of building in the San Antonio area and tailor our approach accordingly."
+        }
+      ],
+      "ctaHeadline": "Transform Your Backyard Today!",
+      "ctaSubline": "Get a free quote and start planning your dream deck with Deck the House."
+    },
+    "services": [
+      {
+        "slug": "custom-deck-design",
+        "name": "Custom Deck Design & Build",
+        "shortDescription": "Bring your outdoor vision to life with a custom-designed deck.",
+        "description": "Dreaming of a backyard oasis? Deck the House specializes in custom deck design and construction. We work closely with you to understand your needs, style preferences, and budget, creating a one-of-a-kind deck that perfectly complements your home. Our design process includes detailed 3D renderings, allowing you to visualize the finished product before construction begins. We handle everything from initial permitting to final inspection, ensuring a seamless and stress-free experience. We consider the unique aspects of San Antonio homes, whether it's a historic stone house in Southtown or a modern build in Stone Oak, and design accordingly. We work with a variety of materials, including pressure-treated lumber, cedar, and composite decking, to create a deck that is both beautiful and durable. Our team is experienced in building decks of all shapes and sizes, from small patios to multi-level entertainment spaces. We also offer a range of customization options, including built-in seating, pergolas, and outdoor kitchens. We adapt our designs to the nuances of the hot San Antonio climate, ensuring shade and airflow are part of the design. Let us help you create the perfect outdoor living space for your San Antonio home.",
+        "process": [
+          "Step 1: Initial Consultation - Discuss your needs, budget, and style preferences.",
+          "Step 2: Design & Planning - Create a custom deck design with 3D renderings.",
+          "Step 3: Permitting - Obtain all necessary permits and approvals.",
+          "Step 4: Construction - Build your deck with expert craftsmanship and attention to detail."
+        ],
+        "benefits": [
+          "Increased home value",
+          "Enhanced outdoor living space",
+          "Customized design to fit your needs",
+          "Durable construction for lasting enjoyment"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to build a custom deck?",
+            "answer": "The timeline varies depending on the size and complexity of the project, but typically ranges from 2-4 weeks."
+          },
+          {
+            "question": "Do I need a permit to build a deck in San Antonio?",
+            "answer": "Yes, a permit is required for most deck projects. We handle the permitting process for you."
+          },
+          {
+            "question": "What materials do you use for your decks?",
+            "answer": "We use a variety of materials, including pressure-treated lumber, cedar, and composite decking. We can help you choose the best material for your needs and budget."
+          }
+        ]
+      },
+      {
+        "slug": "deck-repair-maintenance",
+        "name": "Deck Repair & Maintenance",
+        "shortDescription": "Extend the life of your deck with expert repair and maintenance services.",
+        "description": "Is your deck showing signs of wear and tear? Deck the House offers comprehensive deck repair and maintenance services to keep your outdoor space looking its best. From replacing damaged boards to repairing railings and stairs, we handle all types of deck repairs. We also offer pressure washing, staining, and sealing services to protect your deck from the elements and prevent future damage. San Antonio's climate can be tough on decks, with the sun and humidity causing fading, cracking, and warping. Our experienced team can identify and address these issues before they become major problems. We work on all types of decks, including wood, composite, and vinyl. We understand the unique challenges of repairing older decks in historic San Antonio neighborhoods, and we take care to preserve the original character of your home. Our maintenance services include regular inspections, cleaning, and minor repairs to ensure your deck stays in top condition for years to come. Protect your investment and keep your deck safe and beautiful with Deck the House.",
+        "process": [
+          "Step 1: Inspection - Thoroughly assess the condition of your deck.",
+          "Step 2: Repair & Replacement - Replace damaged boards, railings, and stairs.",
+          "Step 3: Cleaning & Staining - Pressure wash, stain, and seal your deck.",
+          "Step 4: Maintenance - Schedule regular maintenance to keep your deck in top condition."
+        ],
+        "benefits": [
+          "Increased deck lifespan",
+          "Improved safety",
+          "Enhanced appearance",
+          "Prevention of costly repairs"
+        ],
+        "faq": [
+          {
+            "question": "How often should I seal my deck?",
+            "answer": "We recommend sealing your deck every 1-2 years, depending on the type of wood and the amount of exposure to the elements."
+          },
+          {
+            "question": "What are the signs that my deck needs repair?",
+            "answer": "Common signs include cracked or warped boards, loose railings, and wobbly stairs."
+          },
+          {
+            "question": "Do you offer a warranty on your repair services?",
+            "answer": "Yes, we offer a warranty on all of our repair and maintenance services."
+          }
+        ]
+      },
+      {
+        "slug": "pergolas-patios-covers",
+        "name": "Pergolas, Patios & Deck Covers",
+        "shortDescription": "Add shade and style to your outdoor space with a custom pergola, patio, or deck cover.",
+        "description": "Escape the San Antonio heat with a custom pergola, patio, or deck cover from Deck the House. We design and build a variety of outdoor structures to provide shade, protection, and style to your backyard. Whether you're looking for a classic pergola, a covered patio, or a custom deck cover, we can create a solution that meets your needs and budget. Our pergolas are built with high-quality lumber and can be customized with a variety of features, such as climbing vines, lighting, and fans. Our covered patios provide a shaded space for entertaining or relaxing outdoors. Our deck covers protect your deck from the elements, extending its lifespan and reducing maintenance. We consider the architectural style of your home and the surrounding landscape when designing your outdoor structure. We also take into account the direction of the sun and prevailing winds to maximize shade and comfort. We help you navigate HOA guidelines typical in neighborhoods like Alamo Heights and Stone Oak. Deck the House uses durable materials to withstand the Texas climate.",
+        "process": [
+          "Step 1: Consultation - Discuss your needs, style preferences, and budget.",
+          "Step 2: Design & Planning - Create a custom design with 3D renderings.",
+          "Step 3: Construction - Build your pergola, patio, or deck cover with expert craftsmanship.",
+          "Step 4: Finishing Touches - Add lighting, fans, and other features to complete your outdoor space."
+        ],
+        "benefits": [
+          "Increased shade and comfort",
+          "Protection from the elements",
+          "Enhanced outdoor living space",
+          "Increased home value"
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between a pergola and a patio cover?",
+            "answer": "A pergola is an open-air structure with a lattice roof, while a patio cover is a solid roof that provides more complete shade and protection from the rain."
+          },
+          {
+            "question": "Do I need a permit to build a pergola or patio cover?",
+            "answer": "Yes, a permit is typically required for these types of structures. We handle the permitting process for you."
+          },
+          {
+            "question": "What materials do you use for your pergolas and patio covers?",
+            "answer": "We use a variety of materials, including wood, aluminum, and vinyl. We can help you choose the best material for your needs and budget."
+          }
+        ]
+      },
+      {
+        "slug": "deck-lighting",
+        "name": "Deck Lighting Installation",
+        "shortDescription": "Illuminate your outdoor space with professionally installed deck lighting.",
+        "description": "Extend the usability of your deck into the evening hours with professionally installed deck lighting from Deck the House. We offer a wide range of lighting options to create a warm and inviting atmosphere for your outdoor space. From subtle accent lighting to bright task lighting, we can design a lighting system that meets your needs and style preferences. Our team is experienced in installing all types of deck lighting, including LED strip lights, post cap lights, stair lights, and landscape lighting. We use high-quality, weather-resistant fixtures to ensure lasting performance. We consider the architectural style of your home and the surrounding landscape when designing your lighting system. We also take into account the safety and security of your property. We are familiar with common electrical codes in San Antonio neighborhoods. Deck the House ensures proper wiring and safe installation.",
+        "process": [
+          "Step 1: Consultation - Discuss your lighting needs and preferences.",
+          "Step 2: Design & Planning - Create a custom lighting design.",
+          "Step 3: Installation - Install your deck lighting with expert craftsmanship.",
+          "Step 4: Testing & Adjustment - Test and adjust the lighting to ensure optimal performance."
+        ],
+        "benefits": [
+          "Enhanced ambiance",
+          "Increased safety and security",
+          "Extended deck usability",
+          "Increased home value"
+        ],
+        "faq": [
+          {
+            "question": "What type of lighting is best for a deck?",
+            "answer": "LED lighting is a popular choice for decks because it is energy-efficient, long-lasting, and available in a variety of colors and styles."
+          },
+          {
+            "question": "How much does it cost to install deck lighting?",
+            "answer": "The cost varies depending on the size of your deck and the type of lighting you choose. We offer free estimates."
+          },
+          {
+            "question": "Do you offer a warranty on your lighting installations?",
+            "answer": "Yes, we offer a warranty on all of our lighting installations."
+          }
+        ]
+      },
+      {
+        "slug": "railing-installation",
+        "name": "Deck Railing Installation & Repair",
+        "shortDescription": "Ensure safety and style with expert deck railing installation and repair.",
+        "description": "Deck the House provides expert deck railing installation and repair services, ensuring both safety and aesthetic appeal for your outdoor space. Whether you need a brand-new railing system or repairs to your existing one, our skilled team delivers quality workmanship and durable solutions. We offer a variety of railing materials including wood, composite, vinyl, and metal, allowing you to choose the perfect style to complement your deck and home. Our installation process adheres to all local building codes and safety standards, providing a secure and reliable railing system. We address common railing issues such as loose posts, damaged balusters, and weathered finishes, restoring the integrity and appearance of your deck. Deck the House understands the importance of a well-maintained railing system for the safety of your family and guests. We are committed to providing prompt, professional, and reliable service to ensure your deck is both beautiful and safe for years to come.",
+        "process": [
+          "Step 1: Assessment - Evaluate the condition of your existing railing or discuss new installation options.",
+          "Step 2: Material Selection - Choose the perfect railing material to match your style and budget.",
+          "Step 3: Installation/Repair - Expert installation or repair services by our skilled team.",
+          "Step 4: Final Inspection - Ensure the railing meets all safety standards and your satisfaction."
+        ],
+        "benefits": [
+          "Enhanced safety and security",
+          "Improved aesthetic appeal",
+          "Increased property value",
+          "Compliance with local building codes"
+        ],
+        "faq": [
+          {
+            "question": "What types of railing materials do you offer?",
+            "answer": "We offer a variety of materials including wood, composite, vinyl, and metal to match any style and budget."
+          },
+          {
+            "question": "How long does it take to install a new deck railing?",
+            "answer": "Installation time varies depending on the size and complexity of the project, but we strive to complete most installations within a few days."
+          },
+          {
+            "question": "Do you offer a warranty on your railing installations?",
+            "answer": "Yes, we offer a warranty on all of our railing installations to ensure your peace of mind."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining-sealing",
+        "name": "Deck Staining and Sealing",
+        "shortDescription": "Protect and beautify your deck with professional staining and sealing services.",
+        "description": "Protect your investment and enhance the natural beauty of your deck with Deck the House's professional staining and sealing services. We offer a range of high-quality stains and sealants specifically designed to withstand San Antonio's climate, protecting your deck from sun damage, moisture, and decay. Our experienced team carefully prepares the deck surface, ensuring proper adhesion and a long-lasting finish. We offer a variety of stain colors to complement your home and personal style. Regular staining and sealing not only enhance the appearance of your deck but also extend its lifespan, preventing costly repairs down the road. Deck the House uses environmentally friendly products whenever possible, minimizing our impact on the environment while providing superior protection for your deck. We understand the importance of a well-maintained deck for your enjoyment and property value, and we are committed to providing exceptional service and lasting results.",
+        "process": [
+          "Step 1: Cleaning - Thoroughly clean the deck surface to remove dirt, mildew, and old finishes.",
+          "Step 2: Preparation - Sand and repair any damaged areas to ensure a smooth and even surface.",
+          "Step 3: Staining/Sealing - Apply high-quality stain or sealant according to manufacturer instructions.",
+          "Step 4: Final Inspection - Ensure a consistent and durable finish for long-lasting protection."
+        ],
+        "benefits": [
+          "Protection from sun damage and moisture",
+          "Enhanced aesthetic appeal",
+          "Extended deck lifespan",
+          "Increased property value"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain and seal my deck?",
+            "answer": "We recommend staining and sealing your deck every 1-3 years, depending on the type of wood and exposure to the elements."
+          },
+          {
+            "question": "What type of stain is best for my deck?",
+            "answer": "The best type of stain depends on the type of wood and your desired look. We can help you choose the right stain for your deck."
+          },
+          {
+            "question": "Do you offer a warranty on your staining and sealing services?",
+            "answer": "Yes, we offer a warranty on our staining and sealing services to ensure your satisfaction."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "New Braunfels",
+        "slug": "new-braunfels-tx",
+        "state": "TX",
+        "content": "Deck the House is proud to offer our deck building and repair services to the residents of New Braunfels, Texas. Known for its beautiful hill country stone homes and vibrant German heritage, New Braunfels presents unique opportunities for custom deck designs that complement the local architecture. We understand the importance of creating outdoor spaces that can withstand the hot Texas summers and provide a comfortable area for relaxation and entertainment.\n\nWhether you're looking to add a new deck to your existing home, replace an aging structure, or simply need repairs to keep your deck in top condition, Deck the House has the expertise and experience to handle any project. We use high-quality materials and proven construction techniques to ensure that your deck will last for years to come. We specialize in decks that enhance your outdoor living space, taking into account the unique aesthetic of New Braunfels homes.",
+        "localContext": "New Braunfels is known for its beautiful hill country homes and hot summers, making durable, well-designed decks a valuable addition to any property.",
+        "nearbyAreas": [
+          "San Marcos",
+          "Canyon Lake",
+          "Schertz"
+        ]
+      },
+      {
+        "city": "Boerne",
+        "slug": "boerne-tx",
+        "state": "TX",
+        "content": "Deck the House provides deck construction and repair services in Boerne, Texas, a community known for its custom hill country homes and upscale living. We understand the unique character of Boerne and strive to create decks that seamlessly blend with the local architecture and landscape. Our team works closely with homeowners to design and build custom decks that meet their specific needs and preferences.\n\nFrom initial design to final construction, we are committed to providing exceptional service and quality craftsmanship. We use only the finest materials and employ experienced professionals to ensure that your deck is built to last. We understand the challenges posed by the Texas climate and build decks that are both beautiful and durable, enhancing the value and enjoyment of your home.",
+        "localContext": "Boerne is characterized by its custom hill country homes and hot summers, requiring durable and aesthetically pleasing deck solutions.",
+        "nearbyAreas": [
+          "Fair Oaks Ranch",
+          "Leon Springs",
+          "Comfort"
+        ]
+      },
+      {
+        "city": "Schertz",
+        "slug": "schertz-tx",
+        "state": "TX",
+        "content": "Deck the House is dedicated to serving the deck building needs of Schertz, Texas, a vibrant community with a strong military presence due to its proximity to Randolph Air Force Base. We understand the needs of military families and strive to provide reliable and affordable deck construction and repair services.\n\nWe offer a wide range of deck options to suit any budget and lifestyle. Whether you're looking for a simple deck for grilling and relaxing or a more elaborate outdoor living space, we can help. We are committed to providing exceptional customer service and quality workmanship. Our decks are built to withstand the Texas climate and provide years of enjoyment for you and your family. We are proud to serve the residents of Schertz and contribute to the beauty and functionality of their homes.",
+        "localContext": "Schertz is home to many military families and experiences hot summers, making durable and family-friendly decks a popular choice.",
+        "nearbyAreas": [
+          "Cibolo",
+          "Universal City",
+          "Live Oak"
+        ]
+      },
+      {
+        "city": "San Antonio",
+        "slug": "san-antonio-tx",
+        "state": "TX",
+        "content": "Deck the House proudly serves the diverse neighborhoods of San Antonio, Texas, offering custom deck design, construction, and repair services. From the historic charm of the Riverwalk area to the growing suburbs, we tailor our deck solutions to complement the unique character of each home. We understand the importance of creating outdoor spaces that can withstand the Texas heat and provide a comfortable area for relaxation and entertainment.\n\nWe use high-quality materials and expert craftsmanship to ensure that your deck will last for years. Whether you're looking to add a new deck to your existing home, replace an aging structure, or simply need repairs, Deck the House has the expertise to handle any project. We are committed to providing exceptional customer service and exceeding your expectations.",
+        "localContext": "San Antonio's diverse architecture and hot climate require decks that are both durable and aesthetically pleasing.",
+        "nearbyAreas": [
+          "Leon Valley",
+          "Alamo Heights",
+          "Castle Hills"
+        ]
+      },
+      {
+        "city": "Cibolo",
+        "slug": "cibolo-tx",
+        "state": "TX",
+        "content": "Deck the House is pleased to offer our deck building and repair services to the residents of Cibolo, Texas. As a growing community near San Antonio, Cibolo offers a blend of suburban comfort and Texas charm. We understand the importance of creating outdoor spaces that enhance your home's value and provide a place to relax and entertain.\n\nWe specialize in custom deck designs that fit your specific needs and preferences. Whether you're looking for a simple deck for grilling or a more elaborate outdoor living area, we can help. We use high-quality materials and proven construction techniques to ensure that your deck will last for years. We are dedicated to providing exceptional customer service and exceeding your expectations.",
+        "localContext": "Cibolo is a growing suburban community with hot summers, where well-designed decks can significantly enhance outdoor living.",
+        "nearbyAreas": [
+          "Schertz",
+          "Selma",
+          "Universal City"
+        ]
+      },
+      {
+        "city": "Universal City",
+        "slug": "universal-city-tx",
+        "state": "TX",
+        "content": "Deck the House provides deck construction and repair services in Universal City, Texas, a vibrant community with close ties to Randolph Air Force Base. We understand the needs of military families and strive to provide reliable and affordable deck solutions.\n\nWe offer a wide range of deck options to suit any budget and lifestyle. Whether you're looking for a simple deck for relaxing or a more elaborate outdoor living space, we can help. We are committed to using high-quality materials and providing exceptional customer service. Our decks are built to withstand the Texas climate and provide years of enjoyment for you and your family. We are proud to serve the residents of Universal City.",
+        "localContext": "Universal City's proximity to Randolph AFB and hot climate make durable and family-friendly decks a popular choice.",
+        "nearbyAreas": [
+          "Live Oak",
+          "Schertz",
+          "Converse"
+        ]
+      },
+      {
+        "city": "Leon Springs",
+        "slug": "leon-springs-tx",
+        "state": "TX",
+        "content": "Deck the House is proud to offer deck building and repair services to the residents of Leon Springs, Texas, a historic area with a blend of old and new homes. We understand the importance of creating outdoor spaces that complement your home's unique character and provide a comfortable area for relaxation and entertainment.\n\nWe specialize in custom deck designs that fit your specific needs and preferences. Whether you're looking for a simple deck for grilling or a more elaborate outdoor living area, we can help. We use high-quality materials and proven construction techniques to ensure that your deck will last for years. We are dedicated to providing exceptional customer service and exceeding your expectations. We take pride in serving the unique and historic community of Leon Springs.",
+        "localContext": "Leon Springs is a historic area with diverse architecture and hot summers, requiring decks that are both durable and aesthetically pleasing.",
+        "nearbyAreas": [
+          "Fair Oaks Ranch",
+          "Boerne",
+          "San Antonio"
+        ]
+      },
+      {
+        "city": "Fair Oaks Ranch",
+        "slug": "fair-oaks-ranch-tx",
+        "state": "TX",
+        "content": "Deck the House provides deck construction and repair services in Fair Oaks Ranch, Texas, a community known for its spacious properties and custom homes. We understand the importance of creating outdoor spaces that enhance your home's value and provide a place to relax and entertain.\n\nWe offer a wide range of deck options to suit any budget and lifestyle. Whether you're looking for a simple deck for enjoying the views or a more elaborate outdoor living space, we can help. We are committed to using high-quality materials and providing exceptional customer service. Our decks are built to withstand the Texas climate and provide years of enjoyment for you and your family. We are proud to serve the residents of Fair Oaks Ranch.",
+        "localContext": "Fair Oaks Ranch boasts spacious properties and hot summers, making durable and well-designed decks a valuable addition to any home.",
+        "nearbyAreas": [
+          "Boerne",
+          "Leon Springs",
+          "San Antonio"
+        ]
+      },
+      {
+        "city": "Selma",
+        "slug": "selma-tx",
+        "state": "TX",
+        "content": "Deck the House is pleased to offer our deck building and repair services to the residents of Selma, Texas. As a rapidly growing community near San Antonio, Selma offers a blend of suburban convenience and Texas charm. We understand the importance of creating outdoor spaces that enhance your home's value and provide a place to relax and entertain.\n\nWe specialize in custom deck designs that fit your specific needs and preferences. Whether you're looking for a simple deck for grilling or a more elaborate outdoor living area, we can help. We use high-quality materials and proven construction techniques to ensure that your deck will last for years. We are dedicated to providing exceptional customer service and exceeding your expectations.",
+        "localContext": "Selma is a rapidly growing suburban community with hot summers, where well-designed decks can significantly enhance outdoor living.",
+        "nearbyAreas": [
+          "Schertz",
+          "Cibolo",
+          "Live Oak"
+        ]
+      },
+      {
+        "city": "Live Oak",
+        "slug": "live-oak-tx",
+        "state": "TX",
+        "content": "Deck the House provides deck construction and repair services in Live Oak, Texas, a well-established community with a mix of residential and commercial properties. We understand the importance of creating outdoor spaces that meet the diverse needs of our customers.\n\nWe offer a wide range of deck options to suit any budget and lifestyle. Whether you're looking for a simple deck for relaxing or a more elaborate outdoor living space, we can help. We are committed to using high-quality materials and providing exceptional customer service. Our decks are built to withstand the Texas climate and provide years of enjoyment for you and your family. We are proud to serve the residents of Live Oak.",
+        "localContext": "Live Oak is a diverse community with hot summers, making durable and versatile decks a popular choice.",
+        "nearbyAreas": [
+          "Universal City",
+          "Schertz",
+          "Converse"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria G.",
+        "rating": 5,
+        "service": "Custom Deck Design & Build",
+        "text": "Deck the House built our dream deck! From the initial design consultation to the final inspection, their team was professional, knowledgeable, and attentive to every detail. We now have an amazing outdoor space where we love to entertain. They worked with us to design a deck that fit the style of our Alamo Heights home perfectly.",
+        "date": "2024-07-15"
+      },
+      {
+        "name": "Robert S.",
+        "rating": 4,
+        "service": "Deck Repair & Maintenance",
+        "text": "Our deck was in rough shape after years of neglect. Deck the House repaired the damaged boards, replaced the railings, and stained the entire deck. It looks brand new! They were on time and cleaned up everything after the job. The price was fair too.",
+        "date": "2024-08-02"
+      },
+      {
+        "name": "Linda K.",
+        "rating": 5,
+        "service": "Pergola Installation",
+        "text": "We wanted a pergola to provide some shade on our patio. Deck the House designed and built a beautiful pergola that is exactly what we wanted. The craftsmanship is excellent, and the team was a pleasure to work with. We spend so much more time outside now!",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Deck Lighting Installation",
+        "text": "The deck lighting installed by Deck the House has completely transformed our backyard. We can now enjoy our deck in the evenings, and it looks amazing! The team was professional and efficient, and the price was very reasonable.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Susan M.",
+        "rating": 4,
+        "service": "Deck Railing Repair",
+        "text": "Our deck railing was loose and unsafe. Deck the House came out and repaired it quickly and efficiently. They were very professional and did a great job. I feel much safer now.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Deck Staining and Sealing",
+        "text": "Deck the House did an excellent job staining and sealing our deck. The deck looks brand new, and I know it's protected from the elements. The team was professional, courteous, and did a great job cleaning up after themselves. Highly recommend!",
+        "date": "2024-12-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "San Antonio Deck Builders | Deck the House",
+        "description": "Expert deck builders in San Antonio, TX. Custom decks, repairs, pergolas, and more. Free quotes. Call Deck the House today!"
+      },
+      "about": {
+        "title": "About Deck the House | San Antonio Deck Contractor",
+        "description": "Learn about Deck the House, San Antonio's trusted deck contractor. Quality craftsmanship, durable materials, and exceptional service."
+      },
+      "services": {
+        "title": "San Antonio Deck Services | Deck the House",
+        "description": "Comprehensive deck services in San Antonio. Design, build, repair, staining, lighting, and more. Contact Deck the House for a free estimate."
+      },
+      "contact": {
+        "title": "Contact Deck the House | San Antonio Deck Experts",
+        "description": "Contact Deck the House for deck building and repair services in San Antonio, TX. Get a free quote today!"
+      },
+      "reviews": {
+        "title": "Deck the House Reviews | San Antonio Deck Builder",
+        "description": "Read reviews from satisfied Deck the House customers in San Antonio. See why we're the top choice for deck building and repair."
+      },
+      "service-areas": {
+        "title": "Deck Builders Near You | Deck the House Service Areas",
+        "description": "Deck the House provides deck building and repair services throughout the San Antonio area. See our service areas."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "custom-deck-design": "/images/service-custom-deck-design.webp",
+      "deck-repair-maintenance": "/images/service-deck-repair-maintenance.webp",
+      "pergolas-patios-covers": "/images/service-pergolas-patios-covers.webp",
+      "deck-lighting": "/images/service-deck-lighting.webp",
+      "railing-installation": "/images/service-railing-installation.webp",
+      "deck-staining-sealing": "/images/service-deck-staining-sealing.webp"
+    },
+    "servicesResponsive": {
+      "custom-deck-design": {
+        "src": "/images/service-custom-deck-design.webp",
+        "srcset": "/images/service-custom-deck-design-400w.webp 400w, /images/service-custom-deck-design-800w.webp 800w, /images/service-custom-deck-design-1200w.webp 1200w, /images/service-custom-deck-design.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-repair-maintenance": {
+        "src": "/images/service-deck-repair-maintenance.webp",
+        "srcset": "/images/service-deck-repair-maintenance-400w.webp 400w, /images/service-deck-repair-maintenance-800w.webp 800w, /images/service-deck-repair-maintenance-1200w.webp 1200w, /images/service-deck-repair-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pergolas-patios-covers": {
+        "src": "/images/service-pergolas-patios-covers.webp",
+        "srcset": "/images/service-pergolas-patios-covers-400w.webp 400w, /images/service-pergolas-patios-covers-800w.webp 800w, /images/service-pergolas-patios-covers-1200w.webp 1200w, /images/service-pergolas-patios-covers.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-lighting": {
+        "src": "/images/service-deck-lighting.webp",
+        "srcset": "/images/service-deck-lighting-400w.webp 400w, /images/service-deck-lighting-800w.webp 800w, /images/service-deck-lighting-1200w.webp 1200w, /images/service-deck-lighting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "railing-installation": {
+        "src": "/images/service-railing-installation.webp",
+        "srcset": "/images/service-railing-installation-400w.webp 400w, /images/service-railing-installation-800w.webp 800w, /images/service-railing-installation-1200w.webp 1200w, /images/service-railing-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining-sealing": {
+        "src": "/images/service-deck-staining-sealing.webp",
+        "srcset": "/images/service-deck-staining-sealing-400w.webp 400w, /images/service-deck-staining-sealing-800w.webp 800w, /images/service-deck-staining-sealing-1200w.webp 1200w, /images/service-deck-staining-sealing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
